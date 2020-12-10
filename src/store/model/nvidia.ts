@@ -46,8 +46,8 @@ const locale = getSiteLocale();
 
 export const Nvidia: Store = {
 	name: 'nvidia',
-	waitUntil: 'domcontentloaded',
 	currency: '£',
+	waitUntil: 'domcontentloaded',
 	labels: {
 		captcha: {
 			container: 'body',
